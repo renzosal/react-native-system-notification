@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A55F6F7E1D47BA1100BDDF0B /* IOSNotificationModule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A55F6F7D1D47BA1100BDDF0B /* IOSNotificationModule.h */; };
+		A55F6F801D47BA1100BDDF0B /* IOSNotificationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A55F6F7F1D47BA1100BDDF0B /* IOSNotificationModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A55F6F781D47BA1100BDDF0B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A55F6F7E1D47BA1100BDDF0B /* IOSNotificationModule.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A55F6F7A1D47BA1100BDDF0B /* libIOSNotificationModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIOSNotificationModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55F6F7D1D47BA1100BDDF0B /* IOSNotificationModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSNotificationModule.h; sourceTree = "<group>"; };
+		A55F6F7F1D47BA1100BDDF0B /* IOSNotificationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSNotificationModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A55F6F771D47BA1100BDDF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A55F6F711D47BA1100BDDF0B = {
+			isa = PBXGroup;
+			children = (
+				A55F6F7C1D47BA1100BDDF0B /* IOSNotificationModule */,
+				A55F6F7B1D47BA1100BDDF0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A55F6F7B1D47BA1100BDDF0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55F6F7A1D47BA1100BDDF0B /* libIOSNotificationModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55F6F7C1D47BA1100BDDF0B /* IOSNotificationModule */ = {
+			isa = PBXGroup;
+			children = (
+				A55F6F7D1D47BA1100BDDF0B /* IOSNotificationModule.h */,
+				A55F6F7F1D47BA1100BDDF0B /* IOSNotificationModule.m */,
+			);
+			path = IOSNotificationModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A55F6F791D47BA1100BDDF0B /* IOSNotificationModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55F6F831D47BA1100BDDF0B /* Build configuration list for PBXNativeTarget "IOSNotificationModule" */;
+			buildPhases = (
+				A55F6F761D47BA1100BDDF0B /* Sources */,
+				A55F6F771D47BA1100BDDF0B /* Frameworks */,
+				A55F6F781D47BA1100BDDF0B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSNotificationModule;
+			productName = IOSNotificationModule;
+			productReference = A55F6F7A1D47BA1100BDDF0B /* libIOSNotificationModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55F6F721D47BA1100BDDF0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Renzo Saldana";
+				TargetAttributes = {
+					A55F6F791D47BA1100BDDF0B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A55F6F751D47BA1100BDDF0B /* Build configuration list for PBXProject "IOSNotificationModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A55F6F711D47BA1100BDDF0B;
+			productRefGroup = A55F6F7B1D47BA1100BDDF0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A55F6F791D47BA1100BDDF0B /* IOSNotificationModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A55F6F761D47BA1100BDDF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55F6F801D47BA1100BDDF0B /* IOSNotificationModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A55F6F811D47BA1100BDDF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A55F6F821D47BA1100BDDF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A55F6F841D47BA1100BDDF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A55F6F851D47BA1100BDDF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A55F6F751D47BA1100BDDF0B /* Build configuration list for PBXProject "IOSNotificationModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55F6F811D47BA1100BDDF0B /* Debug */,
+				A55F6F821D47BA1100BDDF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55F6F831D47BA1100BDDF0B /* Build configuration list for PBXNativeTarget "IOSNotificationModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55F6F841D47BA1100BDDF0B /* Debug */,
+				A55F6F851D47BA1100BDDF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A55F6F721D47BA1100BDDF0B /* Project object */;
+}
